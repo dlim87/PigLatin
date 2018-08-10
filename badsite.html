@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <script src="piglatin.js"></script>
+  <SCRIPT LANGUAGE="JavaScript">
+    function testResults(form) {
+      var TestVar = form.inputbox.value;
+      var result = pigLatin(TestVar);
+      form.outputbox.value = result;
+      alert(result);
+    }
+  </SCRIPT>
+</head>
+
+<body>
+  <h1>Pig Latin translator</h1>
+  <form name="myform" action="" method="get">
+    <p>put your sentence in here:</p>
+    <input type="textarea" name="inputbox" value="your text goes here" width="600px"height="300px"><br>
+    <input type="button" name="button" value="click me!" onClick="testResults(this.form)" padding="50px"><br>
+    <input type="text" name="outputbox" value="" height="300px" width="600px">
+  </form>
+</body>
+
+</html>

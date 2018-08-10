@@ -1,0 +1,47 @@
+@import "compass/css3";
+body{
+  height: 100%;
+  background-color: gray;
+}
+.container-fluid{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+
+.box-input{
+  background-color: lavender;
+  /* width: 200px; */
+  /* height: 200px; */
+  padding: 10px;
+}
+
+.box-output{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  /* width: 200px; */
+  /* height:auto; */
+  padding: 10px;
+}
+
+.box-function{
+  background-color: gray;
+  /* width: auto; */
+  /* height: auto; */
+  padding: 10px;
+}
+
+/*
+IDs
+
+*/
+
+#input {
+
+}
+
+#output{
+
+}
